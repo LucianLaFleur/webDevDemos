@@ -1,0 +1,20 @@
+
+Star Slots Dev Log:
+
+NYI: 
+transitions for display screen
+victory audios
+tracking points 
+local storage to keep score
+
+functionalities:-------------
+calculates value of hit rows and displays it in the info area on the right
+misses get reported with "Miss!"
+Multiplier x2 if 2 lines hit, x4 for 3 lines, etc. on a power-of basis  2^numLinesHit.
+Multiplier added if 2 different kinds of lines hit (e.g. Jacks and Queens) since this can only work absent diagonals and is rarer.
+sound plays when each reel stops.
+
+plays a blury screen-tear animation while the reel is spinning
+hilights rows that match
+grow animation plays on rows that match
+"spinning animation" plays in top area after hitting to spin
